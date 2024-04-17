@@ -7,6 +7,12 @@ public class PessoaCandidata extends Pessoa {
   private int numero;
   private int votos;
 
+  /**
+   * Instantiates a new Pessoa candidata.
+   *
+   * @param nome   the nome
+   * @param numero the numero
+   */
   public PessoaCandidata(String nome, int numero) {
     super();
     this.nome = nome;
